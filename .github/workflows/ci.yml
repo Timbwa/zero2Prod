@@ -4,6 +4,8 @@ name: Continuous Integration
 
 env: 
   CARGO_TERM_COLOR: always
+  SQLX_VERSION: 0.6.2
+  SLQLX_FEATURES: "rustls,postgres"
 
 jobs:
   check:
