@@ -7,7 +7,7 @@ if ! [ -x "$(command -v psql)" ]; then
   exit 1
 fi
 
-if ! [ -x "$(command -v sqlx.exe)" ]; then
+if ! [ -x "$(command -v sqlx)" ]; then
   uname -s
   echo >&2 "Error: sqlx is not installed."
   echo >&2 "Use:"
